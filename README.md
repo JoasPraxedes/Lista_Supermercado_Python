@@ -14,7 +14,7 @@ Aplicar conceitos fundamentais e intermediários de Python, como:
 ---
 
 ## 🛠️ Ferramentas Utilizadas
-- **Python 3.x**: Linguagem principal.
+- **Python**: Linguagem principal.
 - **PyCharm**: IDE utilizada para desenvolvimento e depuração.
 - **FPDF2**: Biblioteca utilizada para formatação do checklist em PDF.
 
@@ -23,7 +23,7 @@ Aplicar conceitos fundamentais e intermediários de Python, como:
 ## 🏗️ Arquitetura do Projeto
 O sistema foi estruturado em módulos independentes:
 - `main.py`: Ponto de entrada do programa e fluxo do menu principal.
-- **Módulos de Setores**: Mercearia, Açougue, Peixaria, Hortifrúti, Padaria, Bebidas, Limpeza e Higiene.
+- **Módulos de Setores**: Mercearia, Açougue, Peixaria, Hortifrúti, Padaria, Bebidas, Limpeza/Higiene.
 - **Módulo de Subcategorias**: Função genérica responsável pela adição e remoção de produtos reutilizada por todos os setores.
 - **Módulo de PDF**: Responsável pela formatação e exportação dos itens cadastrados para o arquivo `ListaSupermercado.pdf`.
 
